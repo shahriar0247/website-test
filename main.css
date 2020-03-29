@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,body{padding: 0 !important;margin: 0 !important;}
+body{font-family: 'Roboto', sans-serif; }
+
+.a1{
+    background-color: rgba(79, 40, 255, 0.562);
+    padding: 1%;
+    color: white;
+    animation: a11 10s infinite;
+    transition: all 200ms;
+}
+.a1:hover{
+    background: rgba(79, 40, 255, 0.662);
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+}
+.a11{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    
+}
+
+.a11 ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+   
+   
+}
+.a11 ul li {
+    list-style: none;
+    transition: all 200ms;
+    border: white solid 1px;
+    cursor: pointer;
+    padding: 5%;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.a11 ul li:hover{
+    background: rgba(255, 255, 255, 0.795);
+ 
+    color: rgb(115, 84, 255);
+    transform: translateY(-5px) translatex(-5px);
+    transform-style: preserve-3d;
+}
+.backimg img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.a2{
+    color: white;
+    padding-top: 18%;
+    padding-bottom: 10%;
+    margin-left: 65%;
+    width: 30%;
+
+}
+
+.a3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.a3 div{
+    background: rgba(255, 255, 255, 0.51);
+    margin: 5%;
+    padding: 15%;
+    border-radius: 3px;
+    transition: 200ms all;
+    cursor: pointer;
+}
+.a3 div:hover{
+    background: rgba(255, 255, 255, 0.61);
+    font-size: 110%;
+    margin: 3%;
+    padding: 13%;
+}
+.btn1{
+    background: rgba(115, 84, 255, 0.858);
+    color: white;
+    padding: 5%;
+    margin: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 2px;
+    transition-property: color, background, margin, border;
+    transition-duration: 200ms;
+    border: 1px solid white;
+
+}
+.btn1:hover{
+    background: white;
+    border: 1px solid rgba(115, 84, 255, 0.858);
+    color: rgba(115, 84, 255, 0.858);
+
+    margin-left: 12%;
+    margin-right: 12%;
+    
+   
+}
